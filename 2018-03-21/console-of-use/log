@@ -7,15 +7,18 @@
   
     <title>
       
+        你不知道的console用法 |
+          
             煦煦的博客
     </title>
     <!-- 主css -->
     <link rel="stylesheet" href="/sass/main.css">
       <!-- seo -->
       <meta name="description" content="你不知道的console用法.    前端的代码调试一般都用什么？console.log?偶然看到一个技术分享的公众号发的一篇文章，学到了一些，原来console也有好多方法和属性，可以打开浏览器的控制台直接尝试一下，记录下来，就当记笔记啦！ 1234console.log(&apos;Hello World!&apos;);console.info(&apos;Something happend...&apos;);console.w">
+<meta name="keywords" content="code">
 <meta property="og:type" content="article">
-<meta property="og:title" content="煦煦的博客">
-<meta property="og:url" content="http://annall.github.io/2018-03-21/你不知道的console用法/uncategorized">
+<meta property="og:title" content="你不知道的console用法">
+<meta property="og:url" content="http://annall.github.io/2018-03-21/console-of-use/log">
 <meta property="og:site_name" content="煦煦的博客">
 <meta property="og:description" content="你不知道的console用法.    前端的代码调试一般都用什么？console.log?偶然看到一个技术分享的公众号发的一篇文章，学到了一些，原来console也有好多方法和属性，可以打开浏览器的控制台直接尝试一下，记录下来，就当记笔记啦！ 1234console.log(&apos;Hello World!&apos;);console.info(&apos;Something happend...&apos;);console.w">
 <meta property="og:locale" content="zh-Hans">
@@ -29,9 +32,9 @@
 <meta property="og:image" content="http://annall.github.io/Users/anna_cmx/blog/public/images/console-Img/T72.png">
 <meta property="og:image" content="http://annall.github.io/Users/anna_cmx/blog/public/images/console-Img/T73.png">
 <meta property="og:image" content="http://annall.github.io/Users/anna_cmx/blog/public/images/console-Img/T10.png">
-<meta property="og:updated_time" content="2018-03-21T09:48:22.000Z">
+<meta property="og:updated_time" content="2018-03-22T01:35:42.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="煦煦的博客">
+<meta name="twitter:title" content="你不知道的console用法">
 <meta name="twitter:description" content="你不知道的console用法.    前端的代码调试一般都用什么？console.log?偶然看到一个技术分享的公众号发的一篇文章，学到了一些，原来console也有好多方法和属性，可以打开浏览器的控制台直接尝试一下，记录下来，就当记笔记啦！ 1234console.log(&apos;Hello World!&apos;);console.info(&apos;Something happend...&apos;);console.w">
 <meta name="twitter:image" content="http://annall.github.io/Users/anna_cmx/blog/public/images/console-Img/T1.png">
         <!-- facicon -->
@@ -69,7 +72,7 @@
             
         
             
-        <li class="nav-list-item"><a href="https://www.baidu.com">About</a></li>
+        <li class="nav-list-item"><a href="/about">About</a></li>
             
         
             
@@ -91,7 +94,7 @@
             
         
             
-        <li class="main-menu-item"><a href="https://www.baidu.com">About</a></li>
+        <li class="main-menu-item"><a href="/about">About</a></li>
             
         
             
@@ -112,7 +115,7 @@
         <div class="articleCon">
             <header class="article-header">
                 <h1 itemprop="name">
-                    <a href="/2018-03-21/你不知道的console用法/uncategorized" class="article-title"></a>
+                    <a href="/2018-03-21/console-of-use/log" class="article-title">你不知道的console用法</a>
                 </h1>
             </header>
             
@@ -123,7 +126,7 @@
             
             <div class="article-meta">
                 <div class="article-dateTime">
-    <a href="/2018-03-21/你不知道的console用法/uncategorized" class="article-date">
+    <a href="/2018-03-21/console-of-use/log" class="article-date">
         <time datetime="Mar 21st 2018" itemprop="datePublished">
             Mar 21st 2018
         </time>
