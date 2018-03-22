@@ -30,7 +30,7 @@
 <meta property="og:image" content="http://annall.github.io/2018-03-22/console/null/2018-03-22-console/T72.png">
 <meta property="og:image" content="http://annall.github.io/2018-03-22/console/null/2018-03-22-console/T73.png">
 <meta property="og:image" content="http://annall.github.io/2018-03-22/console/null/2018-03-22-console/T8.png">
-<meta property="og:updated_time" content="2018-03-22T03:15:57.000Z">
+<meta property="og:updated_time" content="2018-03-22T03:17:29.000Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="你不知道的console用法">
 <meta name="twitter:description" content="你不知道的console用法​    前端的代码调试一般都用什么？console.log?偶然看到一个技术分享的公众号发的一篇文章，学到了一些，原来console也有好多方法和属性，可以打开浏览器的控制台直接尝试一下，记录下来，就当记笔记啦！ 1234console.log(&apos;Hello World!&apos;);console.info(&apos;Something happend...&apos;);console.w">
@@ -118,7 +118,7 @@
             </header>
             
 <div class="bookmark" id="bookmark">
-    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#你不知道的console用法"><span class="toc-text">你不知道的console用法</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Tip-2"><span class="toc-text">Tip 2</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tip-3"><span class="toc-text">Tip 3</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tip-4"><span class="toc-text">Tip 4</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tip-5"><span class="toc-text">Tip 5</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tip-6"><span class="toc-text">Tip 6</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tip-7"><span class="toc-text">Tip 7</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tip-8"><span class="toc-text">Tip 8</span></a></li></ol></li></ol>
+    <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#你不知道的console用法"><span class="toc-text">你不知道的console用法</span></a><ol class="toc-child"><li class="toc-item toc-level-2"><a class="toc-link" href="#Tip-1"><span class="toc-text">Tip 1</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tip-2"><span class="toc-text">Tip 2</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tip-3"><span class="toc-text">Tip 3</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tip-4"><span class="toc-text">Tip 4</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tip-5"><span class="toc-text">Tip 5</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tip-6"><span class="toc-text">Tip 6</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tip-7"><span class="toc-text">Tip 7</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Tip-8"><span class="toc-text">Tip 8</span></a></li></ol></li></ol>
 </div>
 
             
@@ -136,8 +136,7 @@
                 <div class="article-entry" itemprop="articleBody">
                     <h1 id="你不知道的console用法"><a href="#你不知道的console用法" class="headerlink" title="你不知道的console用法"></a>你不知道的console用法</h1><p>​    前端的代码调试一般都用什么？console.log?偶然看到一个技术分享的公众号发的一篇文章，学到了一些，原来console也有好多方法和属性，可以打开浏览器的控制台直接尝试一下，记录下来，就当记笔记啦！</p>
 <figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.log(<span class="string">'Hello World!'</span>);</span><br><span class="line"><span class="built_in">console</span>.info(<span class="string">'Something happend...'</span>);</span><br><span class="line"><span class="built_in">console</span>.warn(<span class="string">'Something strange happend...'</span>);</span><br><span class="line"><span class="built_in">console</span>.error(<span class="string">'Something horrible happend...'</span>);</span><br></pre></td></tr></table></figure>
-<p>##Tip 1</p>
-<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.trace()</span><br></pre></td></tr></table></figure>
+<h2 id="Tip-1"><a href="#Tip-1" class="headerlink" title="Tip 1"></a>Tip 1</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.trace()</span><br></pre></td></tr></table></figure>
 <p>​    如果想获取日志信息的提示位置，可以通过使用console。trace()来获取带有记录数据的堆栈跟踪</p>
 <p><img src="/2018-03-22/console/null/2018-03-22-console/T1.png" alt="&quot;T1&quot;"></p>
 <h2 id="Tip-2"><a href="#Tip-2" class="headerlink" title="Tip 2"></a>Tip 2</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">console</span>.time() &amp;&amp; <span class="built_in">console</span>.timeEnd()</span><br></pre></td></tr></table></figure>
